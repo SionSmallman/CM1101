@@ -172,10 +172,10 @@ def menu(exits):
     # Repeat until the player enter a valid choice
     while True:
         print_menu(exits)     # Display menu
-        playerinput = input()     # Read player's input
-        playerinput = normalise_input(playerinput)     # Normalise the input
-        if is_valid_exit(exits, playerinput):     # Check if the input makes sense (is valid exit)
-            return playerinput     # If so, return the player's choice
+        user_input = input()     # Read player's input
+        user_input = normalise_input(user_input)     # Normalise the input
+        if is_valid_exit(exits, user_input):     # Check if the input makes sense (is valid exit)
+            return user_input     # If so, return the player's choice
 
 
 
