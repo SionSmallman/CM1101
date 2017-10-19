@@ -1,0 +1,6 @@
+print("Hello")
+print("Changes in another")
+print("World")
+print("More Changes")
+print("Still more changes")
+print("Lam is a weeb")
